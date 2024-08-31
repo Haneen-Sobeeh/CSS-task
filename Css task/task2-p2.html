@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+body{
+    background-color: #00b170;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: center;  
+    justify-content: center;  
+    height: 100vh;  
+}
+.container{
+    width: 100%;
+    max-width: 300px;
+    margin: 50px;
+    padding: 50px;
+    background-color: aliceblue;
+    text-align: center;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+.password-container {
+    display: flex;
+    align-items: center;
+    color: grey;
+}
+
+
+
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+label {
+    cursor: pointer;
+}
+.container h3{
+    padding: 30px;
+    color: #00b170;
+    margin-top:10px ;
+
+
+}
+.F-input{
+   font-size: 15px; 
+   width: 100%;
+   padding: 10px;
+           
+   margin-bottom: 15px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+
+}
+
+.btn{
+            width: 50%;
+            padding: 12px;
+            background-color:#00b170;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-bottom: 50px;
+            margin-top:50px ;
+    
+}
+
+</style>
+
+</head>
+<body>
+    <div class="container">
+        <h3>Login</h3>
+        <input type="text" class="F-input" placeholder="Email">
+        <input type="password" class="F-input"  placeholder="Enter your password">
+        <div class="password-container">
+     
+            <input type="checkbox" id="show-password">
+            <label for="show-password">Show Password</label>
+        </div>
+        
+                <button class="btn">SIGN IN</button><br>
+                <span>Forget<a href="#" style="color: #00b170;" > Username/Password </a></span><br>
+               <span>dont have an account <a href="#" style="color: #00b170;">Sign up </a></a>
+        </div>
+        
+    </div>
+   
+    
+</body>
+</html>

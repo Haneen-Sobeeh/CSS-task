@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href=
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            background-color: rgb(234, 184, 200);
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            display: flex;
+            align-items: center;  
+            justify-content: center;  
+            height: 100vh;  
+        }
+        .container {
+            display: flex;
+            width: 800px;
+            height: 500px;
+            margin: 0;
+            background-color: rgb(255, 255, 255);
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 25px;
+            overflow: hidden;
+           
+        }
+        .image-container {
+            flex: 1;
+            background-image: url(pc.png); /* Replace with your image URL */
+            background-size: cover;
+            background-position: center;
+        }
+        .form-container {
+            flex: 1;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+        }
+        .form-container h2 {
+            font-size: 30px;
+            margin-bottom: 50px;
+      
+            color: #000000;
+        }
+        .btn {
+            width: 100%;
+            padding: 12px;
+            background-color: green;
+            color: #fff;
+            border: none;
+            border-radius: 20px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-bottom: 30px;
+            margin-top: 20px;
+        }
+        .F-input {
+            font-size: 15px;
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc; 
+            border-radius: 20px;
+            box-sizing: border-box;
+        }
+        .info {
+            font-size: 14px;
+        }
+        .info a {
+            color: #000000;
+            text-decoration: none;
+        }
+        
+        .input-icons {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        .input-icons i {
+            position: absolute;
+        }
+
+        .icon {
+            padding: 10px;
+            min-width: 40px;
+        }
+        .input-container {
+            position: relative;
+            margin-bottom: 15px;
+        }
+        .input-container i {
+            position: absolute;
+            left: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #888;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="image-container"></div>
+        <div class="form-container">
+            <h2>Member Login</h2>
+           
+            <div class="input-container">
+                <i class="fa fa-envelope"></i>
+                <input type="email" class="F-input" placeholder="     Email">
+            </div>
+            <div class="input-container">
+                <i class="fa fa-lock"></i>
+                <input type="password" class="F-input" placeholder="   Password">
+            </div>
+            <button class="btn">Login</button>
+            <div class="info">
+                <span>Forget<a href="#" style="color: #00b170;" > Username/Password </a></span><br>
+                <span><a href="#" style="color: #00b170;">Create your account</a></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

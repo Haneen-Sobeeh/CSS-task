@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+ body {
+        display: flex;
+        flex-direction: column; 
+        align-items: flex-start;
+        margin: 20px;
+        background-color: #d0c98c;
+    }
+
+    
+    div.relative1 {
+        position: relative;
+        margin-top: 20px;
+        height: 200px;
+        width: 80%;
+        border: 2px solid gray;
+        background-color: white;
+    }
+    div.relative2 {
+        position: relative;
+        margin-top: 20px;
+        height: 200px;
+        width: 80%;
+        border: 2px solid rgb(0, 0, 0);
+        background-color: white;
+        border-style:dotted ;
+
+    }
+    .try{
+        border: 2px  rgb(0, 0, 0);
+        border-style:dotted ;
+        height: 80px; /* Fixed height */
+            width: 100%; /* Full width of parent container */
+            background-color: lightgray; 
+    }
+    
+    </style>
+</head>
+<body>
+    <H1>Hello this is try</H1>
+    <div class="relative1">
+        <h2>Text 1</h2>
+        Valued by humans for companionship and its ability to kill vermin, the cat's retractable claws are adapted to <mark style="background-color: chocolate;"> small prey </mark>like mice and rats. It has a strong, flexible body, quick reflexes, and sharp teeth, and its night vision and sense of smell are well developed. It is a social species, but a solitary hunter 
+    </div>
+    <div class="relative1">
+        <h2>Text 1</h2>
+        Valued by humans for companionship and its ability to kill vermin, the cat's <mark style="background-color: rgb(120, 120, 77);">claws</mark>  are adapted to killing small prey like mice and rats. It has a strong, flexible body, quick reflexes, and sharp teeth, and its night vision and sense of smell are well developed. It is a social species, but a solitary hunter 
+    </div>
+  
+    <div class="relative2">
+        <h2> Text 1</h2>
+        <div class="try">
+        Valued by humans for companionship and its ability to kill vermin, the cat's retractable claws are adapted to killing small prey like mice and rats. It has a strong, flexible body, quick reflexes, and sharp teeth, and its night vision and sense of smell are well developed. It is a social species, but a solitary hunter 
+    </div>
+    </div>
+    </div>
+</body>
+</html>

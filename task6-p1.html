@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body,html {
+           
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .container {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            height: 100%;
+        }
+        .left-side, .right-side {
+            flex: 1;
+            padding: 20px;
+            box-sizing: border-box;
+            text-align: center;
+            font-size: 20px ;
+            
+        }
+        .left-side {
+            background-color: #7f2faa;
+            
+        }
+        .right-side {
+            background-color: #beb428;
+        }
+    </style>
+    <title>Two-Part Page</title>
+</head>
+<body>
+    <div class="container">
+        <div class="left-side">
+         the left side 
+        </div>
+        <div class="right-side">
+             the right side 
+        </div>
+    </div>
+</body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: grid;
+            place-items: center;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            width: 100%;
+            height: 100%;
+        }
+        .left-side, .right-side {
+            padding: 20px;
+            box-sizing: border-box;
+            text-align: center;
+            font-size: 20px;
+        }
+        .left-side {
+            background-color: #7f2faa;
+        }
+        .right-side {
+            background-color: #beb428;
+        }
+    </style>
+    <title>Two-Part Page</title>
+</head>
+<body>
+    <div class="container">
+        <div class="left-side">
+            The left side
+        </div>
+        <div class="right-side">
+            The right side
+        </div>
+    </div>
+</body>
+</html>
+
+ -->
